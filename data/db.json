@@ -1,0 +1,109 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "name": "Maçã",
+            "img": "../imagens/maca.png",
+            "price": 10.19,
+            "desc": "Maçã - Fuji"
+        },
+        {
+            "id": 2, 
+            "name": "Uva",
+            "img": "../imagens/uva.png",
+            "price": 11.19,
+            "desc": "Uva Roxa Sem Caroço"
+        },
+        {
+            "id": 3, 
+            "name": "Melão",
+            "img": "../imagens/melao.png",
+            "price": 10.19,
+            "desc": "Melão Rei"
+        },
+        {
+            "id": 4, 
+            "name": "Melancia",
+            "img": "../imagens/melancia.png",
+            "price": 3.29,
+            "desc": "Melancia Tipo Grande"
+        },
+        {
+            "id": 5, 
+            "name": "Abacaxi",
+            "img": "../imagens/abacaxi.png",
+            "price": 8.19,
+            "desc": "Abacaxi Perola"
+        },
+        {
+            "id": 6,
+            "name": "Sorvete",
+            "img": "../imagens/sorvete.png",
+            "price": 19.9,
+            "desc": "Sorvete de Pote - Três Sabores"
+        },
+        {
+            "id": 7,
+            "name": "Biscoito",
+            "img": "../imagens/biscoito.png",
+            "price": 10.90,
+            "desc": "Biscoito Cookie - Chocolate"
+        },
+        {
+            "id": 8,
+            "name": "Coca-Cola",
+            "img": "../imagens/cocacola.png",
+            "price": 8.50,
+            "desc": "Coca-Cola Original - 2L"
+        },
+        {
+            "id": 9,
+            "name": "Fanta - Uva",
+            "img": "../imagens/fanta.png",
+            "price": 5.10,
+            "desc": "Fanta Uva - 2L"
+        },
+        {
+            "id": 10,
+            "name": "Água",
+            "img": "../imagens/agua.png",
+            "price": 1.50,
+            "desc": "Água Mineral - Sem Gás"
+        },
+        {
+            "id": 11,
+            "name": "Batata",
+            "img": "../imagens/batata.png",
+            "price": 3.29,
+            "desc": "Batata Lavada"
+        },
+        {
+            "id": 12,
+            "name": "Couve",
+            "img": "../imagens/couve.png",
+            "price": 1.29,
+            "desc": "Couve - Manteiga"
+        },
+        {
+            "id": 13,
+            "name": "Pão",
+            "img": "../imagens/pao.png",
+            "price": 1.29,
+            "desc": "Pão - Francês"
+        },
+        {
+            "id": 14,
+            "name": "Leite",
+            "img": "../imagens/leite.png",
+            "price": 1.50,
+            "desc": "Leite Integral - UHT"
+        },
+        {
+            "id": 15,
+            "name": "Sucrilhos",
+            "img": "../imagens/cereal.png",
+            "price": 19.50,
+            "desc": "Cereal Radical - Matinal"
+        }
+    ]
+}
