@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/itens.css"><!--Aqui importo o CSS -->
+    <link rel='shortcut icon' href='/imagens/cestinha.jpeg'>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script><!--Aqui importo o Json -->
+    <title> Mercado Byte! </title>
+</head>
+
+<body>
+    <div class="models">
+        <div class="mercado-item">
+            <a href="">
+                <div class="mercado-item--img"><img src="" /></div>
+                <div class="mercado-item--add">+</div>
+            </a>
+            <div class="mercado-item--price">R$ --</div>
+            <div class="mercado-item--name">--</div>
+            <div class="mercado-item--desc">--</div>
+        </div>
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <main>
+        <h1 class="home"> <a href="/paginas/home.html"> Home </a> </h1>
+        <h1> Produtos: </h1>
+        <div class="mercado-area"></div>
+    </main>
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1> Carrinho: </h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <div class="mercadoWindowArea">
+        <div class="mercadoWindowBody">
+            <div class="mercadoInfo--cancelMobileButton">Voltar</div>
+            <div class="mercadoBig">
+                <img src="" />
+            </div>
+            <div class="mercadoInfo">
+                <h1>--</h1>
+                <div class="mercadoInfo--desc">--</div>
+                <div class="mercadoInfo--pricearea">
+                    <div class="mercadoInfo--sector">Preço</div>
+                    <div class="mercadoInfo--price">
+                        <div class="mercadoInfo--actualPrice">R$ --</div>
+                        <div class="mercadoInfo--qtarea">
+                            <button class="mercadoInfo--qtmenos">-</button>
+                            <div class="mercadoInfo--qt">1</div>
+                            <button class="mercadoInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mercadoInfo--addButton">Adicionar ao carrinho</div>
+                <div class="mercadoInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <script src='/javaScript/itens.js'></script><!--Aqui importo o CSS -->
+    
+</body>
+
+</html>
